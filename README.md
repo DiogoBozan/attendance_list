@@ -4,7 +4,7 @@ DISCOVER REACT WITH ROCKETSEAT
 
 # Getting Started with Create React App
 
-# This is a simple project to practice knowledge acquired during the course.
+This is a simple project to practice knowledge acquired during the course.
 
 Step 1: Create the directory Node_Module:
 
