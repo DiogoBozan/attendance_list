@@ -21,7 +21,7 @@ step by step to publish:
 https://github.com/gitname/react-gh-pages
 
 
-commands used:
+commands used to published:
 ### `yarn add gh-pages --dev`
 ### `yarn deploy`
 
