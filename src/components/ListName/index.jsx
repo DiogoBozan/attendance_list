@@ -1,8 +1,9 @@
-import "./styles.css";
-import Card from "../../components/Card";
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Card from "../Card";
+import "./listNameStyles.css";
 
-function Home() {
+function ListName() {
   const [studentName, setStudentName] = useState("");
   // armazernar os estudantes no array:
   const [students, setStudents] = useState([]);
@@ -41,6 +42,7 @@ function Home() {
         <div>
           <strong>{user.name}</strong>
           <img src={user.avatar} alt="Img Profile" />
+          <Link to="/">Logout</Link>
         </div>
       </header>
       <input
@@ -60,4 +62,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ListName;
